@@ -31,7 +31,7 @@ make
 The program takes an input file as a command-line argument:
 
 ```bash
-./stock_market input1.txt
+./stock_market tests/input1.txt
 ```
 
 ### Input File Format
