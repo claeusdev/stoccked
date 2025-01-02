@@ -10,7 +10,8 @@ int main(int argc, char* argv[]) {
     }
 
     std::string inputFileName = argv[1];
-    std::string outputFileName = "output" + inputFileName.substr(5);
+    // Handle output filename for files in tests directory
+    std::string outputFileName = "tests/output" + inputFileName.substr(10);  // skip "tests/input"
     
     std::ifstream inputFile(inputFileName);
     if (!inputFile) {
