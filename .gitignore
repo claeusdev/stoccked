@@ -34,7 +34,7 @@ stock_market
 
 # Project-specific files
 output*.txt
-input*.txt
+# input*.txt
 
 # IDE specific files
 .vscode/
